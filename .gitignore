@@ -1,0 +1,32 @@
+*.DS_Store
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+.idea/
+*/target/*
+target/*
+target
+local.properties
+
+# Package Files #
+# *.jar
+*.war
+*.ear
+*.iml
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+＃ Project Files
+.settings
+.classpath
+.factorypath
+.project
+.vscode
+.mvn
+
+/gradlew
+/gradlew.bat
+/gradle/wrapper
+
