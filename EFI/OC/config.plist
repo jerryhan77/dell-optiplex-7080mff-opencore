@@ -311,6 +311,8 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
 				<key>alc-layout-id</key>
 				<data>FQAAAA==</data>
 				<key>device-id</key>
@@ -321,8 +323,6 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Realtek ALC256</string>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -857,7 +857,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
@@ -874,11 +874,11 @@
 			<key>AppleDebug</key>
 			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>SerialInit</key>
@@ -886,7 +886,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1035,7 +1035,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Vg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 igfxonln=1</string>
+				<string>debug=0x100 keepsyms=1 igfxonln=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1191,6 +1191,7 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
+			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
