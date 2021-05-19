@@ -51,3 +51,4 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 ## Updates
 
 -   **2021/5/17**: First install with OpenCore 0.6.5
+-   **2021/5/18**: Fix DP/HDMI Audio issure
