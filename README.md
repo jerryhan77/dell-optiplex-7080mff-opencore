@@ -34,7 +34,7 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   Sound
 -   DP/HDMI Audio
 
-### :X: Not Working (with BCM94360CS2)
+### :x: Not Working (with BCM94360CS2)
 
 -   None
 
