@@ -64,9 +64,9 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 
 ## Gotchas
 
+-   Use RU.efi modify BIOS to disable CFG Lock(0x3E=0x00) and enable DVMT(0xF5=0x02). Use `Ctrl+W` to save the change. And the DVMT is within the **SaSetup**, which is different from CFG Lock which locates within **CpuSetup**.
 -   Mostly followed [折腾 7080MFF 黑苹果 OpenCore](https://www.jianshu.com/p/d7cfaae60509) to prepare the EFI for both installation and daily running environment.
 -   The `SSDT-RHUB.aml` needs to be removed if you manually mapped your USB ports with [Hackintool](https://github.com/headkaze/Hackintool) by using the `USBPorts.kext`.
--   Modify BIOS to disable CFG Lock and enable DVMT. Use `Ctrl+W` to save the change. And the DVMT is within the **SaSetup**, which is different from CFG Lock which locates within **CpuSetup**.
 -   The `AirportItlwm.kext` will cause kernel panic now.
 
 ### Upgrading
