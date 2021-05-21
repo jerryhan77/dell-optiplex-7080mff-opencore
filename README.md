@@ -23,7 +23,7 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 
 ## Status
 
-### Working (with BCM94360CS2)
+### :white_check_mark: Working (with BCM94360CS2)
 
 -   HWP
 -   Sleep
@@ -32,10 +32,35 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   WiFi
 -   Bluetooth
 -   Sound
-
-### Not Working (with BCM94360CS2)
-
 -   DP/HDMI Audio
+
+### :X: Not Working (with BCM94360CS2)
+
+-   None
+
+## BIOS
+
+|Settings|Value|
+|----|---|
+|System Configuration -> Integrated NIC | Enabled |
+|System Configuration -> SATA Operation | AHCI |
+|Security -> PTT Security/PTT On | Disabled |
+|Secure Boot -> Secure Boot Enable | Disabled |
+|Secure Boot -> Secure Boot Mode | Audit Mode |
+|Intel SGE -> SGX | Disabled |
+|Performance -> Intel SpeedStep | Enabled |
+|Performance -> C-States Control | Enabled |
+|Performance -> Turboost | Enabled |
+|Performance -> HyperThread Control | Enabled |
+|Power Management -> Intel Speed Shift Technology | Enabled |
+|Power Management -> Deep Sleep Control | Disabled |
+|Power Management -> USB Wake Support | Disabled |
+|Power Management -> Wake on LAN/WLAN | Lan only |
+|Power Management -> Block Sleep | Disabled |
+|POST Behavior -> Fastboot | Minimal |
+|Virtualization Support -> Virtualization | Enabled |
+|Virtualization Support -> VT For Direct I/O | Disabled |
+|Advanced configurations -> ASPM | Auto |
 
 ## Gotchas
 
@@ -51,5 +76,5 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 ## Updates
 
 -   **2021/5/17**: First install with OpenCore 0.6.5
--   **2021/5/18**: Fix DP/HDMI Audio issure
+-   **2021/5/18**: Fix DP/HDMI Audio issue follow [This Post](https://www.insanelymac.com/forum/topic/345756-no-hdmi-dp-audio-devices-on-uhd-630/)
 -   **2021/5/19**: Upgrade to OpenCore  0.6.9 and change boot screen to GUI mode
