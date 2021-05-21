@@ -36,7 +36,7 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 
 ### :x: Not Working (with BCM94360CS2)
 
--   None
+-   DRM (Only dGPU could fix this)
 
 ## BIOS
 
