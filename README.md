@@ -42,29 +42,29 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 
 |Settings|Value|
 |----|---|
-|System Configuration -> Integrated NIC | Enabled |
-|System Configuration -> SATA Operation | AHCI |
-|Security -> PTT Security/PTT On | Disabled |
-|Secure Boot -> Secure Boot Enable | Disabled |
-|Secure Boot -> Secure Boot Mode | Audit Mode |
-|Intel SGE -> SGX | Disabled |
-|Performance -> Intel SpeedStep | Enabled |
-|Performance -> C-States Control | Enabled |
-|Performance -> Turboost | Enabled |
-|Performance -> HyperThread Control | Enabled |
-|Power Management -> Intel Speed Shift Technology | Enabled |
-|Power Management -> Deep Sleep Control | Disabled |
-|Power Management -> USB Wake Support | Disabled |
-|Power Management -> Wake on LAN/WLAN | Lan only |
-|Power Management -> Block Sleep | Disabled |
-|POST Behavior -> Fastboot | Minimal |
-|Virtualization Support -> Virtualization | Enabled |
-|Virtualization Support -> VT For Direct I/O | Disabled |
-|Advanced configurations -> ASPM | Auto |
+|System Configuration → Integrated NIC | Enabled |
+|System Configuration → SATA Operation | AHCI |
+|Security → PTT Security/PTT On | Disabled |
+|Secure Boot → Secure Boot Enable | Disabled |
+|Secure Boot → Secure Boot Mode | Audit Mode |
+|Intel SGE → SGX | Disabled |
+|Performance → Intel SpeedStep | Enabled |
+|Performance → C-States Control | Enabled |
+|Performance → Turboost | Enabled |
+|Performance → HyperThread Control | Enabled |
+|Power Management → Intel Speed Shift Technology | Enabled |
+|Power Management → Deep Sleep Control | Disabled |
+|Power Management → USB Wake Support | Disabled |
+|Power Management → Wake on LAN/WLAN | Lan only |
+|Power Management → Block Sleep | Disabled |
+|POST Behavior → Fastboot | Minimal |
+|Virtualization Support → Virtualization | Enabled |
+|Virtualization Support → VT For Direct I/O | Disabled |
+|Advanced configurations → ASPM | Auto |
 
 ## Gotchas
 
--   Use RU.efi modify BIOS to disable CFG Lock(0x3E=0x00) and enable DVMT(0xF5=0x02). Use `Ctrl+W` to save the change. And the DVMT is within the **SaSetup**, which is different from CFG Lock which locates within **CpuSetup**.
+-   Use [RU.efi](http://ruexe.blogspot.com/) modify BIOS to disable CFG Lock(0x3E=0x00) and enable DVMT(0xF5=0x02). Use `Ctrl+W` to save the change. And the DVMT is within the **SaSetup**, which is different from CFG Lock which locates within **CpuSetup**.
 -   Mostly followed [折腾 7080MFF 黑苹果 OpenCore](https://www.jianshu.com/p/d7cfaae60509) to prepare the EFI for both installation and daily running environment.
 -   The `SSDT-RHUB.aml` needs to be removed if you manually mapped your USB ports with [Hackintool](https://github.com/headkaze/Hackintool) by using the `USBPorts.kext`.
 -   The `AirportItlwm.kext` will cause kernel panic now.
