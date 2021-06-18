@@ -73,6 +73,15 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 
 -   You might encounter `IPI Time` kernel panic during upgrading to newer version of macOS. I suspect it was still due to the sleeping tweak is not fully working. The mitigation right now is use the USB stick to boot up with the Installation EFI successfully. Then remove the USB stick and reboot again normally into the system.
 
+## 修改DVMT和CFG LOCK
+* 无法使用Grub Setup_var 需要用到Ru.efi 将Ru.efi在BIOS中添加进Boot Menus 后启动 进入Ru后按 "Alt" + "=" 并
+查找 **CPUSetup** 和 **SaSetup**
+![Find.png](./media/Find.png)
+* 解锁"CFG-LOCK" 找到CPUSetup 将横排 "0030" "0E" 位改为 00 按 Ctrl + W 保存
+![Unlock CFGLOCK.png](./media/CFG-LOCK.png)
+* 修改DVMT 搜索 SaSetup 将横排 "00F0" "05" 位改为 "02" 按 Ctrl + W 保存
+![Set 64MB DVMT.png](./media/DVMT.png)
+
 ## Updates
 
 -   **2021/5/17**: First install with OpenCore 0.6.5
