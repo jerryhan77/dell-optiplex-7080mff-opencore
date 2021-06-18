@@ -9,6 +9,7 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   [折腾 7080MFF 黑苹果 OpenCore](https://www.jianshu.com/p/d7cfaae60509)
 -   [3dudu/dell-optiplex-7080-hackintosh-opencore](https://github.com/3dudu/dell-optiplex-7080-hackintosh-opencore)
 -   [likidu/opencore-7080-mff](https://github.com/likidu/opencore-7080-mff.git)
+-   [Hackintosh-OptiPlex-7080-MT](https://github.com/btwise/Hackintosh-Dell-OptiPlex-7080-Series)
 
 ## Hardware
 
