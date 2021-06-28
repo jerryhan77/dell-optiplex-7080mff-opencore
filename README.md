@@ -88,3 +88,4 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   **2021/5/17**: First install with OpenCore 0.6.5
 -   **2021/5/18**: Fix DP/HDMI Audio issue follow [This Post](https://www.insanelymac.com/forum/topic/345756-no-hdmi-dp-audio-devices-on-uhd-630/)
 -   **2021/5/19**: Upgrade to OpenCore  0.6.9 and change boot screen to GUI mode
+-   **2021/6/28**: Upgrade to OpenCore  0.7.0
