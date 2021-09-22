@@ -90,3 +90,4 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   **2021/5/19**: Upgrade to OpenCore  0.6.9 and change boot screen to GUI mode
 -   **2021/6/28**: Upgrade to OpenCore  0.7.0
 -   **2021/7/28**: Upgrade to OpenCore  0.7.1 and fix HEVC hardware acceleration issue
+-   **2021/9/22**: Upgrade to OpenCore  0.7.3 and upgrade to MacOS 11.6
