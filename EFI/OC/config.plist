@@ -308,21 +308,13 @@
 				<data>AAQAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>alc-layout-id</key>
-				<data>FQAAAA==</data>
-				<key>device-id</key>
-				<data>cJ0AAA==</data>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>Realtek ALC256</string>
+				<key>layout-id</key>
+				<data>QwAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -358,7 +350,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/FakePCIID</string>
 				<key>MaxKernel</key>
@@ -376,7 +368,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -784,6 +776,36 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+                                <key>Arch</key>
+                                <string>Any</string>
+                                <key>Base</key>
+                                <string></string>
+                                <key>Comment</key>
+                                <string>06C8_HDMI&amp;DP_Audio</string>
+                                <key>Count</key>
+                                <integer>0</integer>
+                                <key>Enabled</key>
+                                <true/>
+                                <key>Find</key>
+                                <data>DgAAuHCdAADrBpA=</data>
+                                <key>Identifier</key>
+                                <string>as.vit9696.AppleALC</string>
+                                <key>Limit</key>
+                                <integer>0</integer>
+                                <key>Mask</key>
+                                <data></data>
+                                <key>MaxKernel</key>
+                                <string></string>
+                                <key>MinKernel</key>
+                                <string></string>
+                                <key>Replace</key>
+                                <data>DgAAuEijAADrBpA=</data>
+                                <key>ReplaceMask</key>
+                                <data></data>
+                                <key>Skip</key>
+                                <integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1171,6 +1193,8 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -1178,6 +1202,8 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
@@ -1187,6 +1213,8 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -1194,6 +1222,8 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>

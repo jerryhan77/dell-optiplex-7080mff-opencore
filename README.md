@@ -2,7 +2,9 @@
 
 OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 
-![Neofetch](./media/neofetch.png)
+![MacOS](./media/monterey.png)
+
+![Neofetch](./media/neofetch-12.png)
 
 ## Tutorials
 
@@ -74,6 +76,8 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 
 -   You might encounter `IPI Time` kernel panic during upgrading to newer version of macOS. I suspect it was still due to the sleeping tweak is not fully working. The mitigation right now is use the USB stick to boot up with the Installation EFI successfully. Then remove the USB stick and reboot again normally into the system.
 
+-   FakePCIID can cause kernel panic when upgrade to Monterey, these kernel module must delete or disable before upgrade to Monterey!!!
+
 ## 修改DVMT和CFG LOCK
 * 无法使用Grub Setup_var 需要用到Ru.efi 将Ru.efi在BIOS中添加进Boot Menus 后启动 进入Ru后按 "Alt" + "=" 并
 查找 **CPUSetup** 和 **SaSetup**
@@ -91,3 +95,4 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   **2021/6/28**: Upgrade to OpenCore  0.7.0
 -   **2021/7/28**: Upgrade to OpenCore  0.7.1 and fix HEVC hardware acceleration issue
 -   **2021/9/22**: Upgrade to OpenCore  0.7.3 and upgrade to MacOS 11.6
+-   **2021/10/28**: Upgrade to OpenCore  0.7.4 and upgrade to MacOS Monterey(12.0.1) !
