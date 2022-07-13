@@ -12,6 +12,12 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   [3dudu/dell-optiplex-7080-hackintosh-opencore](https://github.com/3dudu/dell-optiplex-7080-hackintosh-opencore)
 -   [likidu/opencore-7080-mff](https://github.com/likidu/opencore-7080-mff.git)
 -   [Hackintosh-OptiPlex-7080-MT](https://github.com/btwise/Hackintosh-Dell-OptiPlex-7080-Series)
+-   [Hackintosh-OptiPlex-7080-MT](https://github.com/webleon/Hackintosh-OptiPlex-7080-MT)
+-   [OpenCore 简体中文参考手册](https://oc.skk.moe/)
+-   [使用OpenCore引导黑苹果](https://blog.xjn819.com/post/opencore-guide.html)
+-   [OpenCore黑苹果引导配置说明](https://shuiyunxc.gitee.io/2020/03/10/instru/index/)
+-   [Optimizing Power Management](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html)
+-   [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
 
 ## Hardware
 
