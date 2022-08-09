@@ -105,3 +105,4 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   **2021/10/28**: Upgrade to OpenCore  0.7.4 and upgrade to MacOS Monterey(12.0.1) !
 -   **2021/12/7**: Upgrade to OpenCore  0.7.6 and upgrade to MacOS Monterey(12.1)
 -   **2022/4/4**: Upgrade to OpenCore  0.7.9 and upgrade to MacOS Monterey(12.3.1)
+-   **2022/8/9**: Upgrade to OpenCore  0.8.2 and upgrade to MacOS Monterey(12.5)
