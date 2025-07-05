@@ -111,3 +111,4 @@ OpenCore for macOS Big Sur (11.3.1) on Dell OptiPlex 7080 MFF
 -   **2023/9/3**: Upgrade to OpenCore  0.9.4 and upgrade to MacOS Ventura(13.5.1)
 -   **2023/10/2**: Upgrade to OpenCore  0.9.5 and upgrade to MacOS Sonoma(14.0)
 -   **2024/4/14**: Upgrade to OpenCore  0.9.9 and fix wifi and no upgrade on MacOS Sonoma
+-   **2025/7/5**: Upgrade to OpenCore  1.0.4 and upgrade to MacOS Sequoia(15.5)
